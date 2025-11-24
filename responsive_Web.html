@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Simple Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>CIT　CAFE</h1>
+  </header>
+
+  <main class="content">
+    <section>
+      <h2>メニュー</h2>
+      <ul>
+        <li>コース A — ¥1,200</li>
+        <li>パスタ — ¥900</li>
+        <li>デザート — ¥500</li>
+		<video controls src="media/pasta.mp4" type="video/mp4" width="300" height="200"></video>
+			<video controls src="media/wine.mp4" type="video/mp4" width="300" height="200">
+		  </video>
+      </ul>
+    </section>
+
+    <section>
+      <h2>アクセス</h2>
+      <p>習志野市 ○○駅から徒歩8分</p>
+    </section>
+
+    <section id="reserve" class="reserve">
+      <h2>予約</h2>
+      <form onsubmit="event.preventDefault();alert('送信（サンプル）');">
+        <input type="text" placeholder="お名前" required>
+        <input type="datetime-local" required>
+        <button type="submit">予約</button>
+      </form>
+    </section>
+  </main>
+</body>
+</html>
