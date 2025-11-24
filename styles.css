@@ -6,7 +6,7 @@ body {
 	box-sizing: border-box;
 }
 
-@media screen and (min-width: 671px){
+@media screen and (min-width: 481px){
 	.site-header h1{ 
 		font-size: 1.8rem;
 	} 
@@ -17,7 +17,7 @@ body {
 	}
 }
 
-@media screen and (max-width: 670px){
+@media screen and (max-width: 480px){
 	.site-header h1 { 
 	font-size: 1.8rem;
 	} 
