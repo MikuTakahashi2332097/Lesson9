@@ -27,6 +27,6 @@ body {
 		display: block; padding: 0 1rem;
 	}
 	video{
-    display: block;
+    display: none;
 	}
 }
